@@ -4,7 +4,6 @@ import NotFound from "../components/notFound/NotFound";
 // import Cart from "../pages/Cart";
 import HomePage from "../pages/HomePage";
 
-import Shop from "../pages/Shop";
 import SingleProduct from "../pages/SingleProduct";
 
 const router = createBrowserRouter([
@@ -15,10 +14,6 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
-      },
-      {
-        path: "shop",
-        element: <Shop />,
       },
       {
         path: "shop/product/:productId",
